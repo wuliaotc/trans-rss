@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trans-rss"
+version = "0.0.1"
+authors = [
+  { name="wuliaotc", email="aerikko@outlook.com" },
+]
+description = "a standalone service to manage transmission rss sub"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wuliaotc/trans-rss"
+"Bug Tracker" = "https://github.com/wuliaotc/trans-rss/issues"
